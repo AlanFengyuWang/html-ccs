@@ -8,10 +8,15 @@
             table {
                 border: 2px solid black;
                 border-collapse: collapse;
+                width: 50%;
                 /* This help with avoiding the double lines inside the border*/
+                /* Bear in mind if we use width 50px, it will not automatically adjust if we shrink the page, one solution
+                is using 50% */
             }
             th, td {
                 border: 1px solid black;
+                padding: 5px;
+                text-align: center;
             }
             th {
                 background-color: lightgray;
