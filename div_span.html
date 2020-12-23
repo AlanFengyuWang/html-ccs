@@ -15,11 +15,12 @@
             .name {
                 font-weight: bold;
             }
-            /* Here #top, #middle and #bottom needs to be distinctive and they are the div, a section of the webpage*/
+            /* Here #top, unlike span, #middle and #bottom (id) needs to be distinctive*/
         </style>
     </head>
     <body>
-        <div id ="top">
+        <div id ="top" class = "name">
+            <!-- By doing class = "name", it makes all sentence becomes bold -->
             This is the <span class = "name">top</span> of my web page.
         </div>
         <div id = "middle">
