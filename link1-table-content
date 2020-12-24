@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Web Page!</title>
+    </head>
+    <body>
+        <h2>Table of Contents</h2>
+        <ul>
+            <li><a href = "#section1">Section 1</a></li>
+            <li><a href = "#section2">Section 2</a></li>
+            <li><a href = "#section3">Section 3</a></li>
+        </ul>
+        <h2 id = "section1">Section 1</h2>
+        <p>
+            Daniel is very interested in abnormal psychology. With the help of PHD in abnormal psychology at London university and the undergraduate of medicine, he did a lot of researches on the effect of certain drug in changing people’s emotion, and even personality. 
+        </p>
+        <h2 id = "section2">Section 2</h2>
+        <p>
+            He was a psychologist professor at a private university. It was the place where he began his crazy experiments. Initially he began from monkey. The test result showed that 124 monkeys became from angry, easier to be irritated to calm and peaceful. 56 monkeys died because of the experiment. Almost half death rate made this result a failure. He was fired by the headmaster. 
+        </p>
+        <h2 id = "Section3">Section 3</h2>
+        <p>
+            Luckily, with the help of the psychology background, he was hired by the kindred police station. He earned a large amount of money and then began his experiment secretly. During five years of working and experimenting, the death rate dropped to less than 5 percent, and it can produce stronger effects emotions, from angry and distracted to calm, concentrated. He thinks that it may become possible to make the big jump, changing from monkey to human
+        </p>
+    </body>
+</html>
