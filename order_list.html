@@ -9,16 +9,21 @@
                 color: red;
 /*                 here ol li specify any list under ol */
             }
+            ol > li {
+                color: blue;
+            }
+/*             This will select only immediate children not the grand children */
         </style>
     </head>
     <body>
         An Unordered List:
-        <ul>
+        <ol>
             <li>One Item</li>
             <li>Another Item</li>
                 <ul>
                     <li>Sublist item one</li>
                     <li>Sublist item two</li>
+<!--                     Those two li are the grand children -->
                 </ul>
             <li>Yet Another Item</li>
         </ul>
